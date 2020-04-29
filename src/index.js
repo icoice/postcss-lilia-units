@@ -1,4 +1,4 @@
-import * as postcss from 'postcss';
+import postcss from 'postcss';
 
 const p1 = (save = {}, type, value) => {
   const [ _, expression, postfix ] = value.match(/\((.+)\)(\w+|\%)/);
